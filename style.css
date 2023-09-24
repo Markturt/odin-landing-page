@@ -29,11 +29,12 @@ li{
 .placeholder{
     width: 350px;
     text-align: center;
+    align-self: center;
     flex: 1 1 auto;
     color: #e5e7eb;
     font-size: 18px;
     background-color: darkgray;
-    height: auto;
+   
    
 }
 .awesome{
@@ -53,4 +54,44 @@ li{
 .awesome button{
     color: white;
     background-color: blue;
+}
+.main-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+    gap: 20px;
+
+}
+.subtext div{
+    border: 3px solid blue;
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+}
+.subtext p{
+    width: 150px;
+    text-align: center;
+}
+#random{
+    text-align: center;
+}
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    flex-direction: column;
+    height: 200px;
+}
+blockquote{
+    width: 1000px;
+    font-size: 36px;
+    color: #1F2937;
+    margin-bottom: 5px;
+}
+.quote div{
+    width: 1000px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
 }
