@@ -105,12 +105,13 @@ blockquote{
 .foot{
     display: flex;
     box-sizing: border-box;
-    width: 100%;
+    width: 80%;
     background-color: rgba(45, 48, 228, 0.705);
     justify-content: space-around;
     align-items: center;
     padding: 0 150px;
     color: white;
+    border-radius:5px;
 }
 .foot button{
     background-color: rgba(105, 107, 234, 0.5);
