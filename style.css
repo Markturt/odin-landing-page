@@ -95,3 +95,25 @@ blockquote{
     font-weight: bold;
     font-size: 20px;
 }
+.foot-wrapper{
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+.foot{
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: rgba(45, 48, 228, 0.705);
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 150px;
+    color: white;
+}
+.foot button{
+    background-color: rgba(105, 107, 234, 0.5);
+    padding:2px 25px;
+    border-radius: 10px;
+}
