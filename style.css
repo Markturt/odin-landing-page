@@ -118,3 +118,14 @@ blockquote{
     padding:2px 25px;
     border-radius: 10px;
 }
+.footer{
+    background-color:#1F2937;
+    height: 30px;
+    color: white;
+}
+.footer small{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding-top: 7px;
+}
